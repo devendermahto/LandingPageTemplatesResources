@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<script type = "text/javascript"> 
+  history.pushState(null, null, location.href); 
+  history.back(); 
+  history.forward(); 
+  window.onpopstate = function () { history.go(1); }; 
+</script>
+<body>
+You Cannot Go Back From This Page :D
+</body>
+
+</html>
